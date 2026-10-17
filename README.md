@@ -4,8 +4,6 @@ An end-to-end machine learning project: collect daily exchange rates from an OAN
 
 > **Disclaimer.** This is a learning and portfolio project. Exchange rates are close to a random walk, and the forecasts here are illustrative, **not financial advice**.
 
-![Rebased currencies](docs/rebased.png)
-
 ## What it does
 
 - **Data:** 365 days (2025-04-17 to 2026-04-16) of daily rates for 11 currencies, quoted as units per 1 USD: GBP, JPY, AUD, INR, PKR, QAR, KWD, CNY, RUB, EUR, CAD.
