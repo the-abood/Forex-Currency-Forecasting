@@ -1,0 +1,11 @@
+# App / Docker image only. Notebook extras (not needed here): matplotlib seaborn tensorflow autots
+# IMPORTANT: pin to the versions you trained with (see README), so the saved models load.
+streamlit>=1.35
+pandas>=2.0
+numpy>=1.26
+plotly>=5.20
+statsmodels>=0.14
+prophet>=1.1.5
+xgboost>=2.0
+lightgbm>=4.0
+scikit-learn>=1.4
