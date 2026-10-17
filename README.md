@@ -59,10 +59,8 @@ Where the LSTM scored best overall (CAD, JPY), the app deploys the best of the o
 ├── requirements.txt               # app + Docker dependencies
 ├── requirements-notebook.txt      # adds Jupyter, plotting, TensorFlow for the notebook
 ├── data/
-│   ├── oanda_forex_timeseries.csv # raw download from the API
 │   └── forex_data.csv             # cleaned data used by the app
 ├── models/                        # one model per currency + results.csv (written by the notebook)
-└── docs/                          # figures used in this README
 ```
 
 ## Quickstart
