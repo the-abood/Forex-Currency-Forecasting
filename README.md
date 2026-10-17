@@ -40,11 +40,6 @@ Where the LSTM scored best overall (CAD, JPY), the app deploys the best of the o
 - **Related currencies move together.** EUR-GBP return correlation is 0.85, and PKR-QAR is 0.63. RUB and INR are largely independent of the rest.
 - **Stationarity:** levels are non-stationary for most currencies, returns are stationary for all, which is why the tree models and LSTM predict returns.
 
-<p>
-<img src="docs/return_correlation.png" width="48%" alt="Return correlation heatmap">
-<img src="docs/all_models_vs_actual_eur.png" width="48%" alt="All models vs actual for EUR">
-</p>
-
 ## Limitations (read before trusting the numbers)
 
 1. **Small sample.** One year of data and a single 60-day test window, so winners could change on another window.
